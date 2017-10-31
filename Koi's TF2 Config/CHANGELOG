@@ -1,0 +1,34 @@
+Koi's Config 2.1 changelog:
+
+- Renamed "veteran.cfg" to "quickskip.cfg"
+
+- Removed "misc.cfg" and placed those commands in "settings.cfg" and "binds.cfg" (settings for volume, binds for taunt 1 as g key)
+
+- Added
+   tf_warpaint_explanation_viewed 1 to "quickskip.cfg"
+   tf_find_a_match_hint_viewed 1 to "quickskip.cfg"
+   tf_quest_map_intro_viewed 1 to "quickskip.cfg"
+   - Reason: These commands have been added in the recent update
+
+- Removed
+   tf_casual_welcome_hide_forever 1 from "quickskip.cfg"
+   tf_comp_welcome_hide_forever 1 from "quickskip.cfg"
+   - Reason: These commands have been removed in the recent update
+
+- Added
+   bind p "say_party" to "binds.cfg"
+   - Reason: Party chat is new in the recent update
+
+- Added
+   tf_mm_custom_ping_enabled 1 to "network.cfg"
+   tf_mm_custom_ping 100 to "network.cfg"
+   - Reason: These commands have been added in the recent update
+
+- Added
+   tf_party_ignore_invites 0 to "settings.cfg"
+   tf_party_join_request_mode 0 to "settings.cfg"
+   - Reason: These commands have been added in the recent update
+
+- Cleaned up the rest of the "binds.cfg", making sure all the default keys were included correctly
+
+- Vote notifications now show up correctly, before there was an issue

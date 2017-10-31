@@ -18,6 +18,8 @@ Koi's Config 2.1 changelog:
 - Added
    bind p "say_party" to "binds.cfg"
    - Reason: Party chat is new in the recent update
+   bind mouse3 "+use_action_slot_item" to "binds.cfg" (note that this is pressing down on the mousewheel like a click)
+   - Reason: Quick access to spells
 
 - Added
    tf_mm_custom_ping_enabled 1 to "network.cfg"

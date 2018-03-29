@@ -3,8 +3,8 @@ Koi's Config 2.3 changelog:
 - Added "tf_dashboard_slide_time 0.1" for quick main menu navigation
 
 Overhead damage now has a configurable color
-- Added "hud_combattext_green 255"
 - Added "hud_combattext_red 255"
+- Added "hud_combattext_green 255"
 - Added "hud_combattext_blue 0"
 - Removed the custom overhead damage color from koi_custom (no longer needed)
 

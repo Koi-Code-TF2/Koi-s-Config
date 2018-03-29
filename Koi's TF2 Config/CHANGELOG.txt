@@ -1,36 +1,13 @@
-Koi's Config 2.1 changelog:
+Koi's Config 2.3 changelog:
 
-- Renamed "veteran.cfg" to "quickskip.cfg"
+- Added "tf_dashboard_slide_time 0.1" for quick main menu navigation
 
-- Removed "misc.cfg" and placed those commands in "settings.cfg" and "binds.cfg" (settings for volume, binds for taunt 1 as g key)
+Overhead damage now has a configurable color
+- Added "hud_combattext_green 255"
+- Added "hud_combattext_red 255"
+- Added "hud_combattext_blue 0"
+- Removed the custom overhead damage color from koi_custom (no longer needed)
 
-- Added
-   tf_warpaint_explanation_viewed 1 to "quickskip.cfg"
-   tf_find_a_match_hint_viewed 1 to "quickskip.cfg"
-   tf_quest_map_intro_viewed 1 to "quickskip.cfg"
-   - Reason: These commands have been added in the recent update
+- Added "tf_mainmenu_match_panel_type 2" to show the competitive badge on main menu by default
 
-- Removed
-   tf_casual_welcome_hide_forever 1 from "quickskip.cfg"
-   tf_comp_welcome_hide_forever 1 from "quickskip.cfg"
-   - Reason: These commands have been removed in the recent update
-
-- Added
-   bind p "say_party" to "binds.cfg"
-   - Reason: Party chat is new in the recent update
-   bind mouse3 "+use_action_slot_item" to "binds.cfg" (note that this is pressing down on the mousewheel like a click)
-   - Reason: Quick access to spells
-
-- Added
-   tf_mm_custom_ping_enabled 1 to "network.cfg"
-   tf_mm_custom_ping 100 to "network.cfg"
-   - Reason: These commands have been added in the recent update
-
-- Added
-   tf_party_ignore_invites 0 to "settings.cfg"
-   tf_party_join_request_mode 0 to "settings.cfg"
-   - Reason: These commands have been added in the recent update
-
-- Cleaned up the rest of the "binds.cfg", making sure all the default keys were included correctly
-
-- Vote notifications now show up correctly, before there was an issue
+- Added "tf_use_match_hud 1" to show the team status on the top of the screen by default

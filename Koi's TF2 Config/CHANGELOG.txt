@@ -1,13 +1,3 @@
-Koi's Config 2.3 changelog:
+Koi's Config 2.4 changelog:
 
-- Added "tf_dashboard_slide_time 0.1" for quick main menu navigation
-
-Overhead damage now has a configurable color
-- Added "hud_combattext_red 255"
-- Added "hud_combattext_green 255"
-- Added "hud_combattext_blue 0"
-- Removed the custom overhead damage color from koi_custom (no longer needed)
-
-- Added "tf_mainmenu_match_panel_type 2" to show the competitive badge on main menu by default
-
-- Added "tf_use_match_hud 1" to show the team status on the top of the screen by default
+- Added custom hitsound (quake/b4nny hitsound)

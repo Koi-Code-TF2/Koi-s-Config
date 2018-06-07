@@ -1,3 +1,4 @@
-Koi's Config 2.4 changelog:
+Koi's Config 2.5 changelog:
 
-- Added custom hitsound (quake/b4nny hitsound)
+- Disabled 'unbindall' (who needs it anyway?)
+  If used, a message saying "unbindall has been disabled" will appear in console, and nothing will be unbound

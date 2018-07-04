@@ -1,0 +1,3 @@
+Koi's Config 3.0 changes:
+
+- BIG restructure, many commands moved around to be easier to locate

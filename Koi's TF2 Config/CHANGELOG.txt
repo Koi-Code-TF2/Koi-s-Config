@@ -1,4 +1,0 @@
-Koi's Config 2.5 changelog:
-
-- Disabled 'unbindall' (who needs it anyway?)
-  If used, a message saying "unbindall has been disabled" will appear in console, and nothing will be unbound

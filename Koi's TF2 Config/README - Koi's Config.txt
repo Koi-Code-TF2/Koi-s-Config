@@ -1,7 +1,7 @@
 Thank you for choosing Koi's Team Fortress 2 Configuration
 Add Koi on steam: https://steamcommunity.com/id/koi-pond
 
-----------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
 HOW TO INSTALL:
 

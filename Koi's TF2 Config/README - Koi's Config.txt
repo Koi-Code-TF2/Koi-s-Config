@@ -19,4 +19,4 @@ HOW TO INSTALL:
          Paste in the line of launch options seen below into that area, and then click OK
    Advanced launch options (copy+paste):
          -dxlevel 90 -sw -w 1920 -h 1080 -noborder -novid -useforcedmparms -noforcemaccel -noforcemspd
-   (These can also be found in autoexec.cfg and the gfx.cfg for convenience.)
+   (These can also be found in autoexec.cfg and graphics.cfg for convenience.)

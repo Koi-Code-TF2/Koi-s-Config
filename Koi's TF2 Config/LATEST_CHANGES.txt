@@ -3,6 +3,14 @@ Koi's Config 3.1 changes:
 For koi_custom:
 - Disabled the large in-game combat help box (i.e. "you are attacking"/"you are defending") by modifying the "viewed.res" file to have seen every default valve map 50 times.
 - Disabled the annoying MOTD/News tab on the main menu by removing everything MOTD-related from "mainmenuoverride.res".
+- Made a custom default selection of favorite casual maps using "casual_criteria.vdf".
+    15 maps are selected by default.
+    Attack/Defense:
+        Dustbowl, Gravelpit, Junction, Mercenary Park, Steel
+    Payload:
+        Badwater, Barnblitz, Borneo, Goldrush, Hoodoo, Snowycoast
+    Misc:
+        2Fort Invasion, Doomsday, Probed, Snowplow
 
 For koi_cfg:
 - Lowered vol from .25 to .20

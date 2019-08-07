@@ -1,3 +1,13 @@
-Koi's Config 3.0 changes:
+Koi's Config 3.1 changes:
 
-- BIG restructure, many commands moved around to be easier to locate
+For koi_custom:
+- Disabled the large in-game combat help box (i.e. "you are attacking"/"you are defending") by modifying the "viewed.res" file to have seen every default valve map 50 times.
+- Disabled the annoying MOTD/News tab on the main menu by removing everything MOTD-related from "mainmenuoverride.res".
+
+For koi_cfg:
+- Lowered vol from .25 to .20
+- Changed some binds:
+    Toggle viewmodel is now on the backslash key "\" instead of the keypad minus key.
+    Jump mode changed from keypad home key to regular home key.
+- Fixed the console filter with some clarification on what used to be wrong.
+- In the main graphics config, set "mat_mipmaptextures" to 0 and "mat_filtertextures" to 1. This makes weapon textures look far better, and prevents them from re-loading slowly everytime you respawn.

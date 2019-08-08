@@ -1,0 +1,20 @@
+//DISABLED BY DEFAULT
+
+//echo "Loading hitsound..."
+
+//tf_dingalingaling 1
+//tf_dingaling_volume 1.0
+//tf_dingalingaling_effect 6 //hitsound
+//tf_dingalingaling_repeat_delay 0.0
+//tf_dingaling_pitchmindmg 100 //hitsound min damage's pitch (<=10 hp always)
+//tf_dingaling_pitchmaxdmg 100 //hitsound max damage's pitch (>=150 hp always)
+
+//tf_dingalingaling_lasthit 1
+//tf_dingaling_lasthit_volume 1.0
+//tf_dingaling_lasthit_pitchmindmg 200 //killsound min damage's pitch (<=10 hp always)
+//tf_dingaling_lasthit_pitchmaxdmg 200 //killsound max damage's pitch (>=150 hp always)
+
+//echo "Hitsound complete"
+//echo " "
+
+//DISABLED BY DEFAULT

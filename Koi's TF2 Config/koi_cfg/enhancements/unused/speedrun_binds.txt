@@ -1,0 +1,19 @@
+//DISABLED BY DEFAULT
+
+//Original by Sagerz
+//Modified by Koi
+
+//bind KP_DOWNARROW "join_class soldier"
+//bind KP_LEFTARROW "join_class demoman"
+//bind KP_RIGHTARROW "join_class engineer"
+//bind KP_UPARROW "join_class spy"
+//bind e "-attack;destroy 1 1;build 1 1;+attack"
+//bind z "-attack" //Use if you are stuck attacking
+
+//Test stuff, doesn't work
+//bind x "map tr_dustbowl"
+//bind c "map tr_target"
+
+//unbind kp_enter //change this to whatever key you're using for LiveSplit
+
+//DISABLED BY DEFAULT

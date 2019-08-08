@@ -1,7 +1,8 @@
 Koi's Config 3.1 changes:
 
 For koi_custom:
-- Disabled the large in-game combat help box (i.e. "you are attacking"/"you are defending") by modifying the "viewed.res" file to have seen every default valve map 50 times.
+- Disabled the large in-game combat help box (i.e. "you are attacking"/"you are defending") by modifying the 
+    "viewed.res" file to have seen every default valve map 50 times.
 - Disabled the annoying MOTD/News tab on the main menu by removing everything MOTD-related from "mainmenuoverride.res".
 - Made a custom default selection of favorite casual maps using "casual_criteria.vdf".
     15 maps are selected by default.
@@ -18,7 +19,8 @@ For koi_cfg:
     Toggle viewmodel is now on the backslash key "\" instead of the keypad minus key.
     Jump mode changed from keypad home key to regular home key.
 - Fixed the console filter with some clarification on what used to be wrong.
-- In the main graphics config, set "mat_mipmaptextures" to 0 and "mat_filtertextures" to 1. This makes weapon textures look far better, and prevents them from re-loading slowly everytime you respawn.
+- In the main graphics config, set "mat_mipmaptextures" to 0 and "mat_filtertextures" to 1.
+    This makes weapon textures look far better, and prevents them from re-loading slowly everytime you respawn.
 - Renamed "tweaks" to "enhancements"
 - Renamed "veteran_quickskipper.cfg" to "tutorial_skip.cfg"
 - Added some missing tutorial skipping commands

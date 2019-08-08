@@ -19,3 +19,6 @@ For koi_cfg:
     Jump mode changed from keypad home key to regular home key.
 - Fixed the console filter with some clarification on what used to be wrong.
 - In the main graphics config, set "mat_mipmaptextures" to 0 and "mat_filtertextures" to 1. This makes weapon textures look far better, and prevents them from re-loading slowly everytime you respawn.
+- Renamed "tweaks" to "enhancements"
+- Renamed "veteran_quickskipper.cfg" to "tutorial_skip.cfg"
+- Added some missing tutorial skipping commands

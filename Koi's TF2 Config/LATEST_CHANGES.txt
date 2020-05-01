@@ -1,28 +1,5 @@
-Koi's Config 3.1 changes:
+Koi's Config 3.2 changes:
 
 For koi_custom:
-- Disabled the large in-game combat help box (i.e. "you are attacking"/"you are defending") by modifying the 
-    "viewed.res" file to have seen every default valve map 50 times.
-- Disabled the annoying MOTD/News tab on the main menu by removing everything MOTD-related from "mainmenuoverride.res".
-- Made a custom default selection of favorite casual maps using "casual_criteria.vdf".
-    15 maps are selected by default.
-    Attack/Defense:
-        Dustbowl, Gravelpit, Junction, Mercenary Park, Steel
-    Payload:
-        Badwater, Barnblitz, Borneo, Goldrush, Hoodoo, Snowycoast
-    Misc:
-        2Fort Invasion, Doomsday, Probed, Snowplow
-
-For koi_cfg:
-- Lowered vol from .25 to .20
-- Changed some binds:
-    Toggle viewmodel is now on the backslash key "\" instead of the keypad minus key.
-    Jump mode changed from keypad home key to regular home key.
-- Fixed the console filter with some clarification on what used to be wrong.
-- In the main graphics config, set "mat_mipmaptextures" to 0 and "mat_filtertextures" to 1.
-    This makes weapon textures look far better, and prevents them from re-loading slowly everytime you respawn.
-- Added "m_mousespeed 0" and "zoom_sensitivity_ratio .7934714" to "mouse+sens.cfg".
-    Note: zoom_sensitivity_ratio at .7934714 makes the scoped sens match the unscoped sens.
-- Renamed "tweaks" to "enhancements".
-- Renamed "veteran_quickskipper.cfg" to "tutorial_skip.cfg".
-- Added some missing tutorial skipping commands.
+- Disabled mvm sentry buster explosion clouds (koi_custom\materials\particle\fluidexplosions\<vtf files>)
+- Disabled mvm tank explosion clouds and wooden barrier explosion clouds (koi_custom\particles\mvm.pcf)

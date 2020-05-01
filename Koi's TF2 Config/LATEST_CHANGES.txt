@@ -3,6 +3,7 @@ Koi's Config 3.2 (4/30/2020) changes:
 For koi_custom:
 - Disabled mvm sentry buster explosion clouds (koi_custom\materials\particle\fluidexplosions\<vtf files>)
 - Disabled mvm tank explosion clouds and wooden barrier explosion clouds (koi_custom\particles\mvm.pcf)
+- Made mvm cash much more visible by using helpful active/just expired indicator which can be seen through most walls (koi_custom\particles\mvm.pcf + bigboom.pcf)
 
 For koi_cfg:
 - Overhead damage is now in the hud+ui area, since it makes more sense being grouped with the hud commands

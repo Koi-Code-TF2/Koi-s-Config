@@ -3,8 +3,9 @@ Koi's Config 3.2 (4/30/2020) changes:
 For koi_custom:
 - Disabled mvm sentry buster explosion clouds (koi_custom\materials\particle\fluidexplosions\<vtf files>)
 - Disabled mvm tank explosion clouds and wooden barrier explosion clouds (koi_custom\particles\mvm.pcf)
-- Removed the mvm tank destruction rubble, the rubble will now show as a small red "ERROR" and quickly
-  disappear (koi_custom\models\bots\boss_bot\boss_tank_part1_destruction.mdl)
+- Removed the mvm tank destruction rubble by replacing the rubble model with the broken bottle model
+  for no particular reason other than to not show a red "ERROR"
+  (koi_custom\models\bots\boss_bot\boss_tank_part1_destruction.mdl)
 - Made mvm cash much more visible by using helpful active/just expired indicator which can be seen through 
   most nearby/close/short walls (koi_custom\particles\mvm.pcf + bigboom.pcf)
 

@@ -5,8 +5,9 @@ For koi_custom:
 - Disabled mvm tank explosion clouds and wooden barrier explosion clouds (koi_custom\particles\mvm.pcf + bigboom.pcf)
 - Removed the mvm tank destruction rubble by replacing the rubble model with the broken bottle model
   for no particular reason other than to not show a red "ERROR" (koi_custom\models\bots\boss_bot\boss_tank_part1_destruction.mdl)
-- Made mvm cash much more visible by using helpful active/just expired indicator which can be seen through 
-  most nearby/close/short walls (koi_custom\particles\mvm.pcf + bigboom.pcf)
+- Added ZooL's mvm cash mod which makes cash much more visible by using helpful active/just expired 
+  indicator that can be seen through most nearby/close/short walls (koi_custom\particles\mvm.pcf + bigboom.pcf)
+- Added sigsegv's robot animation fixes and sentry buster model fixes
 
 For koi_cfg:
 - Overhead damage is now in the hud+ui area, since it makes more sense being grouped with the hud commands
